@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('csProse', ['ui.router', 'ui.bootstrap', 'toastr']);
+    .module('csprose', ['ui.router', 'ui.bootstrap', 'toastr']);
 
 })();

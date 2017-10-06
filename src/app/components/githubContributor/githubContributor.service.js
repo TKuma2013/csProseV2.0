@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('csProse')
+    .module('csprose')
     .factory('githubContributor', githubContributor);
 
   /** @ngInject */

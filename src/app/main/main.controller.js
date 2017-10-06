@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('csProse')
+    .module('csprose')
     .controller('MainController', MainController);
 
   /** @ngInject */
@@ -11,7 +11,7 @@
 
     vm.awesomeThings = [];
     vm.classAnimation = '';
-    vm.creationDate = 1506998582671;
+    vm.creationDate = 1507256248091;
     vm.showToastr = showToastr;
 
     activate();

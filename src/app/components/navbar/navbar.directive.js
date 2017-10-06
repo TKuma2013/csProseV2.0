@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('csProse')
+    .module('csprose')
     .directive('acmeNavbar', acmeNavbar);
 
   /** @ngInject */

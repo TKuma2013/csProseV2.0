@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('csProse')
+    .module('csprose')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
 
