@@ -30,7 +30,7 @@ module.exports = {
 
 }
 
-function createToken(){
+function createToken(user){
     var payload = {
 
         sub: user._id,

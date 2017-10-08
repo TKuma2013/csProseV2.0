@@ -2,8 +2,6 @@ var express = require('express');
 var app=express();
 var bodyParser=require('body-parser');
 var mongoose = require('mongoose');
-var jwt = require('jwt-simple');
-var moment = require('moment');
 //var database;
 
 
