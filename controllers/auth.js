@@ -1,5 +1,6 @@
 var User = require('../models/user');
 var jwt = require('jwt-simple');
+var moment= require('moment');
 
 module.exports = {
     register: function(req,res){
@@ -18,7 +19,7 @@ module.exports = {
                 });
 
             }
-        res.status(200);
+        res.status(200).send({token: createToken(result)});
 
     })
          });
